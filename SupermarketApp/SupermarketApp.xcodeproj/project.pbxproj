@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C47582C2E01EB0B00F73AAD /* PersonInitialsAvatar in Frameworks */ = {isa = PBXBuildFile; productRef = 0C47582B2E01EB0B00F73AAD /* PersonInitialsAvatar */; };
+		0C50F87F2E02F94F001DC691 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 0C50F87E2E02F94F001DC691 /* Auth */; };
+		0C50F8812E02F94F001DC691 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 0C50F8802E02F94F001DC691 /* Functions */; };
+		0C50F8832E02F94F001DC691 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 0C50F8822E02F94F001DC691 /* PostgREST */; };
+		0C50F8852E02F94F001DC691 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 0C50F8842E02F94F001DC691 /* Realtime */; };
+		0C50F8872E02F94F001DC691 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 0C50F8862E02F94F001DC691 /* Storage */; };
+		0C50F8892E02F94F001DC691 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 0C50F8882E02F94F001DC691 /* Supabase */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C47580E2E01E73500F73AAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C4757F82E01E73400F73AAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C4757FF2E01E73400F73AAD;
+			remoteInfo = Jumbo;
+		};
+		0C4758182E01E73500F73AAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C4757F82E01E73400F73AAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C4757FF2E01E73400F73AAD;
+			remoteInfo = Jumbo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C4758002E01E73400F73AAD /* SupermarketApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SupermarketApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C47580D2E01E73500F73AAD /* SupermarketAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SupermarketAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C4758172E01E73500F73AAD /* SupermarketAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SupermarketAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0C4758022E01E73400F73AAD /* SupermarketApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SupermarketApp;
+			sourceTree = "<group>";
+		};
+		0C4758102E01E73500F73AAD /* SupermarketAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SupermarketAppTests;
+			sourceTree = "<group>";
+		};
+		0C47581A2E01E73500F73AAD /* SupermarketAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SupermarketAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C4757FD2E01E73400F73AAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C50F8892E02F94F001DC691 /* Supabase in Frameworks */,
+				0C50F8872E02F94F001DC691 /* Storage in Frameworks */,
+				0C50F8832E02F94F001DC691 /* PostgREST in Frameworks */,
+				0C50F8812E02F94F001DC691 /* Functions in Frameworks */,
+				0C50F87F2E02F94F001DC691 /* Auth in Frameworks */,
+				0C50F8852E02F94F001DC691 /* Realtime in Frameworks */,
+				0C47582C2E01EB0B00F73AAD /* PersonInitialsAvatar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C47580A2E01E73500F73AAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C4758142E01E73500F73AAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C4757F72E01E73400F73AAD = {
+			isa = PBXGroup;
+			children = (
+				0C4758022E01E73400F73AAD /* SupermarketApp */,
+				0C4758102E01E73500F73AAD /* SupermarketAppTests */,
+				0C47581A2E01E73500F73AAD /* SupermarketAppUITests */,
+				0C4758012E01E73400F73AAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C4758012E01E73400F73AAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C4758002E01E73400F73AAD /* SupermarketApp.app */,
+				0C47580D2E01E73500F73AAD /* SupermarketAppTests.xctest */,
+				0C4758172E01E73500F73AAD /* SupermarketAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C4757FF2E01E73400F73AAD /* SupermarketApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C4758212E01E73500F73AAD /* Build configuration list for PBXNativeTarget "SupermarketApp" */;
+			buildPhases = (
+				0C4757FC2E01E73400F73AAD /* Sources */,
+				0C4757FD2E01E73400F73AAD /* Frameworks */,
+				0C4757FE2E01E73400F73AAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0C4758022E01E73400F73AAD /* SupermarketApp */,
+			);
+			name = SupermarketApp;
+			packageProductDependencies = (
+				0C47582B2E01EB0B00F73AAD /* PersonInitialsAvatar */,
+				0C50F87E2E02F94F001DC691 /* Auth */,
+				0C50F8802E02F94F001DC691 /* Functions */,
+				0C50F8822E02F94F001DC691 /* PostgREST */,
+				0C50F8842E02F94F001DC691 /* Realtime */,
+				0C50F8862E02F94F001DC691 /* Storage */,
+				0C50F8882E02F94F001DC691 /* Supabase */,
+			);
+			productName = Jumbo;
+			productReference = 0C4758002E01E73400F73AAD /* SupermarketApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C47580C2E01E73500F73AAD /* SupermarketAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C4758242E01E73500F73AAD /* Build configuration list for PBXNativeTarget "SupermarketAppTests" */;
+			buildPhases = (
+				0C4758092E01E73500F73AAD /* Sources */,
+				0C47580A2E01E73500F73AAD /* Frameworks */,
+				0C47580B2E01E73500F73AAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C47580F2E01E73500F73AAD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0C4758102E01E73500F73AAD /* SupermarketAppTests */,
+			);
+			name = SupermarketAppTests;
+			packageProductDependencies = (
+			);
+			productName = JumboTests;
+			productReference = 0C47580D2E01E73500F73AAD /* SupermarketAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C4758162E01E73500F73AAD /* SupermarketAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C4758272E01E73500F73AAD /* Build configuration list for PBXNativeTarget "SupermarketAppUITests" */;
+			buildPhases = (
+				0C4758132E01E73500F73AAD /* Sources */,
+				0C4758142E01E73500F73AAD /* Frameworks */,
+				0C4758152E01E73500F73AAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C4758192E01E73500F73AAD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0C47581A2E01E73500F73AAD /* SupermarketAppUITests */,
+			);
+			name = SupermarketAppUITests;
+			packageProductDependencies = (
+			);
+			productName = JumboUITests;
+			productReference = 0C4758172E01E73500F73AAD /* SupermarketAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C4757F82E01E73400F73AAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					0C4757FF2E01E73400F73AAD = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					0C47580C2E01E73500F73AAD = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 0C4757FF2E01E73400F73AAD;
+					};
+					0C4758162E01E73500F73AAD = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 0C4757FF2E01E73400F73AAD;
+					};
+				};
+			};
+			buildConfigurationList = 0C4757FB2E01E73400F73AAD /* Build configuration list for PBXProject "SupermarketApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C4757F72E01E73400F73AAD;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0C47582A2E01EB0B00F73AAD /* XCRemoteSwiftPackageReference "PersonInitialsAvatar" */,
+				0C50F87D2E02F94F001DC691 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0C4758012E01E73400F73AAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C4757FF2E01E73400F73AAD /* SupermarketApp */,
+				0C47580C2E01E73500F73AAD /* SupermarketAppTests */,
+				0C4758162E01E73500F73AAD /* SupermarketAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C4757FE2E01E73400F73AAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C47580B2E01E73500F73AAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C4758152E01E73500F73AAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C4757FC2E01E73400F73AAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C4758092E01E73500F73AAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C4758132E01E73500F73AAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C47580F2E01E73500F73AAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C4757FF2E01E73400F73AAD /* SupermarketApp */;
+			targetProxy = 0C47580E2E01E73500F73AAD /* PBXContainerItemProxy */;
+		};
+		0C4758192E01E73500F73AAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C4757FF2E01E73400F73AAD /* SupermarketApp */;
+			targetProxy = 0C4758182E01E73500F73AAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C47581F2E01E73500F73AAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = LZGKAYW6X4;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0C4758202E01E73500F73AAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = LZGKAYW6X4;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C4758222E01E73500F73AAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LZGKAYW6X4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Supermarket App";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivanbondaruk.SupermarketApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C4758232E01E73500F73AAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LZGKAYW6X4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Supermarket App";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivanbondaruk.SupermarketApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0C4758252E01E73500F73AAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LZGKAYW6X4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivanbondaruk.JumboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SupermarketApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SupermarketApp";
+			};
+			name = Debug;
+		};
+		0C4758262E01E73500F73AAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LZGKAYW6X4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivanbondaruk.JumboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SupermarketApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SupermarketApp";
+			};
+			name = Release;
+		};
+		0C4758282E01E73500F73AAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LZGKAYW6X4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivanbondaruk.JumboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jumbo;
+			};
+			name = Debug;
+		};
+		0C4758292E01E73500F73AAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LZGKAYW6X4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivanbondaruk.JumboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jumbo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C4757FB2E01E73400F73AAD /* Build configuration list for PBXProject "SupermarketApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C47581F2E01E73500F73AAD /* Debug */,
+				0C4758202E01E73500F73AAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0C4758212E01E73500F73AAD /* Build configuration list for PBXNativeTarget "SupermarketApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C4758222E01E73500F73AAD /* Debug */,
+				0C4758232E01E73500F73AAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0C4758242E01E73500F73AAD /* Build configuration list for PBXNativeTarget "SupermarketAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C4758252E01E73500F73AAD /* Debug */,
+				0C4758262E01E73500F73AAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0C4758272E01E73500F73AAD /* Build configuration list for PBXNativeTarget "SupermarketAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C4758282E01E73500F73AAD /* Debug */,
+				0C4758292E01E73500F73AAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0C47582A2E01EB0B00F73AAD /* XCRemoteSwiftPackageReference "PersonInitialsAvatar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Ivan-Bondaruk/PersonInitialsAvatar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+		0C50F87D2E02F94F001DC691 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase-community/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0C47582B2E01EB0B00F73AAD /* PersonInitialsAvatar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0C47582A2E01EB0B00F73AAD /* XCRemoteSwiftPackageReference "PersonInitialsAvatar" */;
+			productName = PersonInitialsAvatar;
+		};
+		0C50F87E2E02F94F001DC691 /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0C50F87D2E02F94F001DC691 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		0C50F8802E02F94F001DC691 /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0C50F87D2E02F94F001DC691 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		0C50F8822E02F94F001DC691 /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0C50F87D2E02F94F001DC691 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		0C50F8842E02F94F001DC691 /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0C50F87D2E02F94F001DC691 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		0C50F8862E02F94F001DC691 /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0C50F87D2E02F94F001DC691 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		0C50F8882E02F94F001DC691 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0C50F87D2E02F94F001DC691 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0C4757F82E01E73400F73AAD /* Project object */;
+}
