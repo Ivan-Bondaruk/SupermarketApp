@@ -35,4 +35,4 @@ We believe in building great software **together**. If you're a developer passio
 We welcome contributions from developers of all levels.  
 Let's build something great — **together**. 💙
 
-> Got questions? Reach out via [Discussions](#) or open an issue!
+> Got questions? Reach out via [Discussions](https://github.com/Ivan-Bondaruk/SupermarketApp/discussions)] or open an issue!
