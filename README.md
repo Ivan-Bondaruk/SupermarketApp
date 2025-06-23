@@ -26,10 +26,9 @@ We believe in building great software **together**. If you're a developer passio
 
 ## 🚀 Get Started
 
-1. **Fork** the repository: [https://github.com/bondarukid/SupermarketApp/fork](#)
-2. Read the [Contributing Guide](#) and [Code of Conduct](#)
-3. Pick an open issue or propose your own
-4. Open a pull request when ready!
+1. **Fork** the repository: [https://github.com/Ivan-Bondaruk/SupermarketApp/fork](#)
+2. Pick an open issue or propose your own
+3. Open a pull request when ready!
 
 ---
 
